@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MIS相關工作介紹</title>
+
+	<style type="text/css">
+		* { 
+			font-family: "標楷體"; }
+
+		header { 
+			font-size: 36px;
+			color: green; }
+
+		.col-lg-4 {
+			border: 1px solid; }
+
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<script>
+		$(document).ready(function(){
+			$("#COMPANY").hover(function(){
+				$("#PICTURE").attr("src","/static/logo.png");
+			});
+
+			$("#PICTURE").click(function(){
+				$("#PICTURE").hide();
+				$("#PICTURE").fadeIn("slow")
+			});
+		});
+	</script>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-warning navbar-light">
+	<a class="navbar-brand" href="#">選單</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="#COMPANY">公司資訊</a></li>
+			<li class="nav-item"><a class="nav-link" href="#worker">職務介紹</a></li>
+			<li class="nav-item"><a class="nav-link" href="#need">工作條件需求</a></li>
+		</ul>
+	</div>
+	</nav>
+
+	<main class="container-fluid bg-dark text-white text-center">
+
+		<nav>
+			<h1><a href="https://www.104.com.tw/company/24zir7c?jobsource=wow_intro" class="text-reset text-decoration-none text-white bg-success" target="_blank" id="COMPANY">雄獅旅行社股份有限公司  </a></h1>
+		</nav>
+
+		<img src="/static/logo.png" alt="照片" width="300" class="img-fluid rounded-circle" id="PICTURE"> 
+		<br><br><br>
+
+		<div class="row">
+			<session id="COMPANY" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">公司資訊</header>
+				<h3>公司名：雄獅旅行社股份有限公司<br>
+				地址：台北市內湖區石潭路151號 <br>
+				服務/商品：</h3>
+				<h4>【1.國內外團體旅遊行程規劃】</h4>
+				<h4>【2.國內外機票.訂房.自由行】</h4>
+				<h4>【3.企業獎勵旅遊專案行程規劃】</h4>
+				<h4>【4.代理航空公司國外自由行】</h4>
+				<h4>【5.各國簽證代辦】</h4>
+				<h4>【6.各項旅遊諮詢服務】</h4>
+				<h4>【7.產品/通路/網路行銷、大型活動、媒體公關、媒體代理、影像製作、網站建置、廣告設計】</h4>
+				<h3>公司介紹：</h3>
+				<h4>秉持著「Lion, Enriching Life」理念，自1985年雄獅旅行社成立後 集團架構下多角化經營，各公司供需共生發揮綜效。<br>
+					此外為了奠定集團發展實力，更成立雄獅資訊科技、雄獅通運、Gonna EAT，以旅遊為根基，逐漸往生活層面發展，垂直水平整合相關產業，朝著成為全球華人旅遊生活服務品牌為目標而邁進。</h4>
+			</session>
+
+			<article id="worker" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">職務介紹</header> 
+				<h3>M01-電商行銷企劃(APP)、<br></h3>
+			</article>
+			
+			<aside id="need" class="col-lg-4">
+				<header><a class="text-reset text-decoration-none bg-white">
+				工作條件需求</a></header>
+				<h3>工作經歷：</h3><h4>3年以上</h4>
+				<h3>學歷要求：</h3><h4>大學、碩士</h4>
+				<h3>科系要求：</h3><h4>不拘</h4>
+				<h3>語文條件：</h3><h4>不拘</h4>
+				<h3>擅長工具：</h3><h4>不拘</h4>
+				<h3>工作技能：</h3><h4>不拘</h4>
+			</aside>
+		</div><br><br>
+		
+		<footer>
+			Copyright ©  戴啟原. All Rights Reserved.
+		</footer>
+		
+	</main>
+</body>
+</html>
